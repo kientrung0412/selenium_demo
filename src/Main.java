@@ -3,7 +3,7 @@ import org.openqa.selenium.interactions.Actions;
 public class Main {
     public static void main(String[] args) {
         ChromeDriverHelper driverHelper = ChromeDriverHelper.getInstance();
-        driverHelper.getUrl("https://truyentranhlh.net/");
+        driverHelper.getUrl("");
 
         driverHelper
                 .getElementByXpath("/html/body/div/main/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/div[2]")
